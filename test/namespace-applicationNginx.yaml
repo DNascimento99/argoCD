@@ -1,0 +1,6 @@
+piVersion: v1
+kind: Namespace
+metadata:
+  labels:
+    name: nginx
+  name: nginx
