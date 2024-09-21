@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: svr-lab1
+  namespace: nginx
+  labels: 
+    app: app-lab1
+spec:
+  type: LoadBalancer
+  selector:
+    app: app-lab1
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 8000
