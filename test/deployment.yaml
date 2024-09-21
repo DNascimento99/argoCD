@@ -21,4 +21,6 @@ spec:
       - name: container-lab1
         image: nginx:1.27.1
         ports:
-        - containerPort: 8000
+        - containerPort: 80
+
+
