@@ -7,7 +7,7 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
-  - host: a32433118c2c442f2bed5e5b3419f1e1-439486694.us-east-1.elb.amazonaws.com/
+  - host: a32433118c2c442f2bed5e5b3419f1e1-439486694.us-east-1.elb.amazonaws.com
     http:
       paths:
       - path: /
