@@ -6,7 +6,7 @@ metadata:
   labels: 
     app: app-lab1
 spec:
-  type: ingress
+  type: LoadBalancer
   selector:
     app: app-lab1
   ports:
