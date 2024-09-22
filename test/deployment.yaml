@@ -6,7 +6,6 @@ metadata:
   labels:
     app: lab1
     environment: dev
-
 spec:
   replicas: 2
   selector:
@@ -21,6 +20,4 @@ spec:
       - name: container-lab1
         image: nginx:1.27.1
         ports:
-        - containerPort: 80
-
-
+        - containerPort: 443
