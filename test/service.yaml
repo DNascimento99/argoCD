@@ -6,10 +6,10 @@ metadata:
   labels: 
     app: app-lab1
 spec:
-  type: LoadBalancer
+  type: ingress
   selector:
     app: app-lab1
   ports:
   - protocol: TCP
     port: 80
-    targetPort: 80
+    targetPort: 443
